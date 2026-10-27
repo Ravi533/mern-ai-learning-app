@@ -15,7 +15,7 @@ import { semanticSearch } from "./util/semanticSearch.js";
 
 const app = express();
 
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 connectDB();
 app.use(cors());

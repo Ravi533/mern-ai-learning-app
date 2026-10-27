@@ -1,0 +1,30 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src.server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.4",
+    "multer": "^2.4.0",
+    "openai": "^6.49.0",
+    "pdf-parse": "^2.4.5",
+    "tiktoken": "^1.0.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
